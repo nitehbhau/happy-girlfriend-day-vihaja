@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Girlfriend's Day ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Floating Hearts -->
+<div id="hearts"></div>
+
+<!-- Hero Section -->
+<section class="hero">
+
+<h1>Happy Girlfriend's Day ❤️</h1>
+
+<h2>My Dearest Vihaja 💖</h2>
+
+<p class="hero-text">
+Every moment with you becomes my favorite memory.
+Thank you for bringing love, happiness and endless smiles into my life.
+Today is all about celebrating you.
+</p>
+
+<button onclick="scrollGallery()">
+Our Beautiful Memories 📸
+</button>
+
+</section>
+
+<!-- Gallery -->
+<section class="gallery" id="gallery">
+
+<h2>Our Beautiful Memories 💕</h2>
+
+<div class="photo-grid">
+
+<img src="photos/photo1.jpg">
+<img src="photos/photo2.jpg">
+<img src="photos/photo3.jpg">
+<img src="photos/photo4.jpg">
+<img src="photos/photo5.jpg">
+<img src="photos/photo6.jpg">
+<img src="photos/photo7.jpg">
+<img src="photos/photo8.jpg">
+<img src="photos/photo9.jpg">
+<img src="photos/photo10.jpg">
+
+</div>
+
+</section>
+
+<!-- Love Letter -->
+<section class="letter">
+
+<h2>💌 A Letter For You</h2>
+
+<p>
+
+Dear Vihaja ❤️
+
+Happy Girlfriend's Day to the most beautiful soul in my life.
+
+Thank you for every smile, every laugh, every conversation and every beautiful memory we've shared.
+
+You make ordinary days feel magical just by being part of them.
+
+I hope today reminds you how deeply loved and appreciated you are.
+
+No matter what tomorrow brings, you'll always have a special place in my heart.
+
+Thank you for being you.
+
+Happy Girlfriend's Day ❤️
+
+Forever Yours,
+
+Nitesh ❤️
+
+</p>
+
+</section>
+
+<!-- Ending -->
+
+<section class="ending">
+
+<h1>I Love You Forever ❤️</h1>
+
+<p>
+
+"In every lifetime...
+
+I'd still choose you."
+
+</p>
+
+<button id="musicBtn">
+
+🎵 Play Music
+
+</button>
+
+</section>
+
+<audio id="music" loop>
+
+<source src="music/shessha.mp3" type="audio/mpeg">
+
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
